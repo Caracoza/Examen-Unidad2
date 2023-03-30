@@ -1,0 +1,306 @@
+h1{
+    color: blue;
+}
+h2{
+    color: brown;
+}
+h3{
+    color: blueviolet;
+}
+h4{
+    color: rgb(236, 16, 137);
+}
+h5{
+    color: chocolate;
+}
+h6{
+    color: rgb(223, 9, 243);
+}
+button{
+    color: rgb(39, 9, 172);
+    background-color: rgb(107, 207, 14);
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.header>{
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 20px;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header>*{
+    display: inline-block;
+    font-size: 16px;
+    height: 1px;
+    vertical-align: middle;
+    line-height: 45px;
+    
+}
+
+
+li{
+display:inline;
+}
+
+.logo{
+    height: 30%;
+    left: 10px;
+     
+}
+.navbar{
+text-align:right;
+color: aquamarine;
+font-weight: 140px;
+    
+}
+
+.actions>{
+    text-align: left;
+    font-size:12%
+   
+}
+.actions>*{
+    margin-left: 35px;
+    margin-right: 45px;
+  
+}
+
+.actions>*{
+    margin-left: 35px;
+    margin-right: 55px;
+}
+
+.publish h3{
+    color: blue;
+}
+
+.video{
+    display:inline-table;
+    width: 75%;
+    margin-left: 32%;
+    margin-right: 50%;
+}    
+.features{
+    background-color: rgb(96, 233, 103);
+    display:grid;
+    padding: 0% 0%;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(2,300px);
+}
+/*article{
+    background-color:blue (31,181,131);
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+}  
+*/
+.features .features-card{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(43, 226, 119);
+    border: 10px solid  red;
+display: flex;
+align-items: center;
+overflow: hidden; 
+}  
+
+.features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+} 
+.features .feature-card .feature-contect >*{
+    margin-bottom: 1px;;
+} 
+.features .feature-card .feature-contect img {
+    width: 60px;
+} 
+
+.features .feature-card .feature-contect h3 {
+    font-size: 50px;
+    color: rgb(221, 27, 27);
+    font-family: 'Times New Roman', Times, serif;
+} 
+.features .feature-card .feature-contect p{
+    font-size: 16px;
+    color: rgb(230, 185, 64);
+}
+
+.features .feature-card .feature-contect a{
+    font-size: 16px;
+    color: rgb(236, 37, 63);
+}
+
+.features .feature-card .feature-image  img {
+   flex: 2;
+   width: 80%;
+   position: relative;
+   right: -50px;
+   height: 80%; 
+
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image  img {
+    margin-top: 0;
+    height: 100%;
+}
+
+    main{
+        margin-top: 130px;
+    }
+
+main{
+    margin-top: 130px;
+}
+
+
+h3{
+    color: rgb(190, 32, 4);
+    }
+
+    button{
+        color: rgb(210, 224, 8);
+        background-color: rgb(156, 14, 9);
+    }
+
+    article{
+       
+        height: 70%;
+        
+    }
+   
+    div.contenido{
+        padding: 1px;
+        
+    }
+    p.letra{
+       color: blueviolet;
+       padding: 1px;
+       font-size: medium;
+    }
+
+    div.tarjeta{
+        width: 150px;
+        margin: 20%;
+        text-align:center;    
+        
+    }
+
+    div.album{
+       width: 240px;
+       box-shadow: 0 4 px 8px crimson ;
+       
+    }
+
+    @media (max-width:575px){
+
+        .navbar, .actions{
+            display: none;
+        }
+        h1{
+            font-size: 30px;
+        }
+        .publish > form{
+            flex-direction: column;
+            display: flex;
+            
+        }
+        .publish > form > div {
+            height: 50px;
+            margin-top: 10px;
+        }
+        main{
+            margin-top: 130px;
+        }
+    
+       .features{
+        grid-template: repeat(4, 1fr)/1fr;
+    }
+    
+    /** dispositivos pequeños en vista landscape (horizontal) */
+    @media (min-width: 576px) and (max-width: 767px) {
+      
+    }
+    
+    /** dispositivos medianos (tablets) */
+    @media (min-width: 768px) and (max-width: 991px) {
+      
+    }
+    
+    /** dispositivos grandes (desktops) */
+    @media (min-width: 992px) and (max-width: 1199px) {
+      
+    }
+    
+    /** dispositivos extra grandes (monitores grandes, tvs) */
+    @media (min-width: 1200px){
+    }
+
+
+
+
+
+    .tarjeta{
+        
+        color: #0c0c0c;
+        
+        
+    }
+    .album{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        color:aquamarine;
+        
+        
+    }
+    
+    .album >*{
+        box-shadow: 0 4 px 8px crimson ;
+        background-color: #b65050;
+       text-align: center; 
+        
+    }
+    .feature .feature-cards {
+        margin-bottom: 60px;
+        margin-left: 30px;
+        margin-right: 15px;
+        background-color: #fd9a9afd;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    
+    }
+    
+     .feature .feature-cards .album {
+        margin-bottom: 60px;
+        margin-left: 30px;
+        margin-right: 15px;
+        background-color: #fd9a9afd;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    
+       }
+        
+    .feature .feature-cards .feature-figure img{
+            padding: 50px 30px 30px 30px;
+            flex: 2;
+            margin-bottom: 1rem;
+            width: 80px;
+        }
+    
+        .feature{
+            display:contents;
+            padding: 5% 5%;
+            grid-template-columns: repeat(4, 550px); 
+           
+        }
+        .feature .feature-cards .feature-contents{
+            text-align: center;
+        }
+    
+    }
